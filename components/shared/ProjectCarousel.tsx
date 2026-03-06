@@ -72,7 +72,7 @@ export function ProjectCarousel() {
             </h3>
             <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {project.tags.map((tag) => (
+              {project.tags.map((tag: string) => (
                 <span
                   key={tag}
                   className="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs rounded-full"
